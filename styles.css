@@ -1,0 +1,70 @@
+:root{
+    --font-inter: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.popular-fruits {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(165, 254, 254);
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(165, 254, 254);
+    padding: 20px;
+}
+p,h1,h2 {
+    font-family: var(--font-inter);
+}
+button {
+    color: black;
+    border-color: blue;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+}
+input {
+    border-color: blue;
+    padding: 5px;
+}
+.container .search-bar button {
+    border-radius: 0%;
+}
+.popular-fruits .apple {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.popular-fruits .apple img {
+    border-radius: 20px;
+    object-fit: cover;
+    padding: 10px;
+}
+.popular-fruits .banana {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.popular-fruits .banana img {
+    border-radius: 20px;
+    object-fit: cover;
+    padding: 10px;
+}
+.result-display {
+    margin-top: 30px;
+}
+button:hover {
+    background-color: rgb(165, 254, 254);
+    border-color: white;
+    color: white;
+}
