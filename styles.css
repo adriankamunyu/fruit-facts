@@ -13,37 +13,39 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(165, 254, 254);
     width: 100%;
 }
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    background-color: rgb(165, 254, 254);
     padding: 20px;
+    align-items: flex-start;
+    text-align: center;
+    align-items: center;
 }
 p,h1,h2 {
     font-family: var(--font-inter);
+    color: yellow;
 }
 button {
-    color: black;
-    border-color: blue;
-    background-color: white;
+    color: gold;
+    border-color: gold;
+    background-color: blueviolet;
     border-radius: 50px;
     padding: 5px;
 }
 input {
-    border-color: blue;
+    border-color: yellow;
     padding: 5px;
+    color: blueviolet;
 }
-.container .search-bar button {
-    border-radius: 0%;
-}
+
 .popular-fruits .apple {
     display: flex;
     flex-direction: column;
     padding: 5px;
+    text-align: center;
 }
 .popular-fruits .apple img {
     border-radius: 20px;
@@ -54,26 +56,38 @@ input {
     display: flex;
     flex-direction: column;
     padding: 5px;
+    text-align: center;
 }
 .popular-fruits .banana img {
     border-radius: 20px;
     object-fit: cover;
     padding: 10px;
 }
-.result-display {
-    margin-top: 30px;
-}
+
 button:hover {
-    background-color: rgb(165, 254, 254);
-    border-color: white;
-    color: white;
+    background-color: yellow;
+    border-color: blueviolet;
+    color: blueviolet;
 }
 h1 {
-    margin-left: 20px;
+    text-align: center;
 }
 p {
     margin-left: 20px;
 }
 ul {
     margin-left: 35px;
+}
+.result-display {
+    text-align: justify;
+    padding: 20px;
+}
+.box {
+    background-color: blueviolet;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.texts {
+    text-align: center;
 }
