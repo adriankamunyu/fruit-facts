@@ -2,12 +2,6 @@
     --font-inter: "Inter", sans-serif;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .popular-fruits {
     align-items: center;
     display: flex;
@@ -40,7 +34,6 @@ input {
     padding: 5px;
     color: blueviolet;
 }
-
 .popular-fruits .apple {
     display: flex;
     flex-direction: column;
@@ -63,21 +56,6 @@ input {
     object-fit: cover;
     padding: 10px;
 }
-
-button:hover {
-    background-color: yellow;
-    border-color: blueviolet;
-    color: blueviolet;
-}
-h1 {
-    text-align: center;
-}
-p {
-    margin-left: 20px;
-}
-ul {
-    margin-left: 35px;
-}
 .result-display {
     text-align: justify;
     padding: 20px;
@@ -90,4 +68,76 @@ ul {
 }
 .texts {
     text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+body {
+  background-color: #6a11cb;
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+.search-bar {
+  margin-bottom: 40px;
+}
+input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+}
+button {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  background: #ffcc00;
+  color: #333;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background: #ffd633;
+  transform: scale(1.05);
+}
+.popular-fruits img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+.popular-fruits h2 {
+  margin-bottom: 10px;
+}
+.popular-fruits button {
+  margin-top: 10px;
+  width: 100%;
+}
+.result-display {
+  background: rgba(255,255,255,0.1);
+  padding: 30px;
+  border-radius: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+}
+.result-display h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.result-display ul {
+  list-style: none;
+}
+.result-display li {
+  margin-bottom: 8px;
 }
